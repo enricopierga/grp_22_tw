@@ -13,16 +13,16 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home'); 
 
 Route::get('/accedi', function () {
     return view('accedi');
-});
+})->name('accedi');
 
 Route::get('/privacypolicy', function () {
     return view('privacypolicy');
-});
+})->name('privacypolicy');
 
 Route::get('/terminiecondizioni', function () {
     return view('terminiecondizioni');
-});
+})->name('terminiecondizioni');

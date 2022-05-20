@@ -34,7 +34,7 @@
     <!-- Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png"></a> 
+            <a class="navbar-brand logo-image" href="{{route('home')}}"><img src="images/logo.png"></a> 
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">

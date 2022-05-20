@@ -33,7 +33,7 @@
     <!-- Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png"></a> 
+            <a class="navbar-brand logo-image" href="{{route('home')}}"><img src="images/logo.png"></a> 
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
@@ -41,7 +41,7 @@
                         <a class="nav-link page-scroll" href="#description">DESCRIZIONE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="">ACCEDI</a>
+                        <a class="nav-link page-scroll" href="{{route('accedi')}}">ACCEDI</a>
                     </li>
                 </ul>
                 <span class="nav-item">
@@ -162,8 +162,8 @@
                     <div class="footer-col third" style="margin-right: 5em;">
                         <h5>Link utili</h5>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="terms-conditions.html">Termini e Condizioni</a></li>
-                            <li><a href="privacy-policy.html">Informativa sulla Privacy</a></li>
+                            <li><a href="{{route('terminiecondizioni')}}">Termini e Condizioni</a></li>
+                            <li><a href="{{route('privacypolicy')}}">Informativa sulla Privacy</a></li>
                         </ul>
                     </div> 
                     <div class="footer-col fourth" style="width: max-content;">
