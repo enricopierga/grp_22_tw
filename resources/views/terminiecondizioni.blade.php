@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Termini e condizioni</span>
+                        <a href="{{route('home')}}">Home</a><i class="fa fa-angle-double-right"></i><span>Termini e condizioni</span>
                     </div> 
                 </div> 
             </div> 
@@ -142,7 +142,7 @@
                     </div> <!-- end of text-container -->
                     
                     <div class="text-container last">
-                        <a class="btn-solid-reg" href="index.html">TORNA ALLA HOME</a>
+                        <a class="btn-solid-reg" href="{{route('home')}}">TORNA ALLA HOME</a>
                     </div> <!-- end of text-container -->
                 </div>
             </div> <!-- end of row -->
