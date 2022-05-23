@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,3 +26,11 @@ Route::get('/privacypolicy', function () {
 Route::get('/terminiecondizioni', function () {
     return view('terminiecondizioni');
 })->name('terminiecondizioni');
+
+Route::get('/public_catalog', function () {
+    return view('public_catalog');
+})->name('public_catalog');
+
+Route::get('/registrati', function () {
+    return view('registrati');
+})->name('registrati');
